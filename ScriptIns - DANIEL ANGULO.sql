@@ -15,7 +15,7 @@ INSERT INTO `estaciones` VALUES (1,'Parque Centenario','Av. Patricias Argentinas
 
 INSERT INTO `estado` VALUES (1,'Iniciado',1,'2020-12-30 00:00:00',NULL,NULL),(2,'Concluido',1,'2020-12-30 00:00:00',NULL,NULL);
 
-INSERT INTO `tarifa` VALUES (1,'duracion <= 30min',1,2,'2020-12-30 00:00:00',NULL,NULL),(2,'duracion  > 30min y <= 2hr',1,2,'2020-12-30 00:00:00',NULL,NULL),(3,'duracion  > 2hr y <= 4hr',2,2,'2020-12-30 00:00:00',NULL,NULL),(4,'duracion  > 4hr',3,2,'2020-12-30 00:00:00',NULL,NULL);
+INSERT INTO `tarifa` VALUES (1,'duracion <= 30min',0,30,1,2,'2020-12-30 00:00:00',NULL,NULL),(2,'duracion  > 30min y <= 2hr',30,120,1.3,2,'2020-12-30 00:00:00',NULL,NULL),(3,'duracion  > 2hr y <= 4hr',120,240,1.5,2,'2020-12-30 00:00:00',NULL,NULL),(4,'duracion  > 4hr',240,NULL,2.5,2,'2020-12-30 00:00:00',NULL,NULL);
 
 INSERT INTO `tipo_bicicletas` VALUES (1,'ICONIC','paseo',1.00,1,'2020-12-30 00:00:00',NULL,NULL),(2,'FIT','asistida por motor elÃ©ctrico',1.60,5,'2021-07-04 00:00:00',NULL,NULL);
 

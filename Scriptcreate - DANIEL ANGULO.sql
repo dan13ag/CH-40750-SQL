@@ -79,7 +79,8 @@ primary key(id_estado)
 CREATE TABLE if not exists TARIFA (
 id_tarifa INT NOT NULL auto_increment,
 descrip varchar(30) not null,
-valor_x_tiempo int,   -- valor por cual se multiplica el tiempo para calcular el valor del servicio 
+mins_max int, -- Cantidad de minutos max para la categoria.
+valor_x_tiempo decimal(3,2) null,   -- valor por cual se multiplica el tiempo para calcular el valor del servicio 
 id_usuario_ins INT NOT NULL,
 fch_ins datetime NOT NULL,
 id_usuario_upd INT,
@@ -117,8 +118,8 @@ CREATE TABLE if not exists Usos_bicicletas (
 id_uso INT NOT NULL auto_increment,
 fecha_origen datetime not null,
 id_estacion_origen INT not null,
-fecha_destino datetime not null,
-id_estacion_destino INT not null,
+fecha_destino datetime,
+id_estacion_destino INT ,
 id_ciclista INT not null,
 id_tarifa INT,
 id_estado INT not null,
