@@ -79,6 +79,7 @@ primary key(id_estado)
 CREATE TABLE if not exists TARIFA (
 id_tarifa INT NOT NULL auto_increment,
 descrip varchar(30) not null,
+mins_min int, -- Cantidad de minutos min para la categoria.
 mins_max int, -- Cantidad de minutos max para la categoria.
 valor_x_tiempo decimal(3,2) null,   -- valor por cual se multiplica el tiempo para calcular el valor del servicio 
 id_usuario_ins INT NOT NULL,
@@ -133,5 +134,5 @@ foreign key(id_estado) references ESTADO(id_estado),
 foreign key(id_tipo_bicicli) references TIPO_BICICLETAS(id_tipo_bicicli)
 );
 
--- drop schema STARTUP_BICICLETAS;   
+-- drop schema STARTUP_BICICLETAS3;   
 
