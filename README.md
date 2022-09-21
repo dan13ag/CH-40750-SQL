@@ -1,7 +1,7 @@
 # CH-40750-SQL
  Proyecto - Creación de una base de datos en MySQL – CODERHOUSE 
 
-Para la creación de la base de datos de la STARTUP PEDALEANDO, se deben ejecutar archivos contenidos en esta carpeta en el siguiente orden:
+- Para la creación de la base de datos de la STARTUP PEDALEANDO, se deben ejecutar archivos contenidos en esta carpeta en el siguiente orden:
 
 0.- Creación de Esquema y Tablas: script que crea el esquema llamado startup_bicicletas y las tablas correspondientes.
 
