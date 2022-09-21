@@ -26,7 +26,7 @@ b.- Script TCL: script en el cual se pone en práctica el uso de las sentencias 
 - Backup de la base de datos: 
 	
 c.- Script Backup: script que contiene Backup de los datos de las tablas de la base de datos del esquema startup_bicicletas.
-el mismo no contiene la estructura de las tablas, por lo que si se desea implementar se dé truncar las tablas antes de ejecutarlo.
+el mismo no contiene la estructura de las tablas, por lo que si se desea implementar se dé truncar las tablas.
 
 - Reporte: 
 	
