@@ -19,16 +19,16 @@ Adicionalmente se agregan los siguientes Archivos:
 
 Implementación de sentencias DCL y TCL:
 
-      a.- Script DCL: script el cual crea dos usuarios, con distintos niveles de acceso sobre la base de datos del esquema startup_bicicletas.
+a.- Script DCL: script el cual crea dos usuarios, con distintos niveles de acceso sobre la base de datos del esquema startup_bicicletas.
 
-	b.- Script TCL: script en el cual se pone en práctica el uso de las sentencias TCL.
+b.- Script TCL: script en el cual se pone en práctica el uso de las sentencias TCL.
 
 Backup de la base de datos: 
 	
-	c.- Script Backup: script que contiene Backup de los datos de las tablas de la base de datos del esquema startup_bicicletas.
-	el mismo no contiene la estructura de las tablas, por lo que si se desea implementar se dé truncar las tablas antes de ejecutarlo.
+c.- Script Backup: script que contiene Backup de los datos de las tablas de la base de datos del esquema startup_bicicletas.
+el mismo no contiene la estructura de las tablas, por lo que si se desea implementar se dé truncar las tablas antes de ejecutarlo.
 
 Reporte: 
 	
-	d.- Reporte: archivo (.pbix) que contiene tres páginas que permiten realizar análisis visual de la base de datos.
+d.- Reporte: archivo (.pbix) que contiene tres páginas que permiten realizar análisis visual de la base de datos.
 
